@@ -1,0 +1,13 @@
+{
+    "name": "Taobao link converter",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "author": "Elliana Novak",
+    "description": "Extracts targetId from a Taobao URL and opens a new link.",
+    "permissions": ["activeTab"],
+    "host_permissions": ["*://*.taobao.com/*"],
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "New link"
+    }
+}
